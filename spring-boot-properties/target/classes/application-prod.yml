@@ -1,8 +1,0 @@
-application:
-  name: prod环境 spring-boot-properties
-  version: prod环境 1.0-SNAPSHOT
-developer:
-  name: prod环境 xkcoding
-  website: prod环境 http://jiyong.me
-  qq: prod环境 123456787
-  phone-number: prod环境 12345678

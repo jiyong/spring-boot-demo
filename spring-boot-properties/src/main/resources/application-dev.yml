@@ -1,0 +1,8 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+developer:
+  name: dev环境 jiyong.me
+  website: dev环境 http://jiyong.me
+  qq: dev环境 123456787
+  phone-number: dev环境 12345678

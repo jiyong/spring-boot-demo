@@ -1,0 +1,5 @@
+META-INF/spring-configuration-metadata.json
+com/qu/properties/property/DeveloperProperty.class
+com/qu/properties/SpringBootPropertiesApplication.class
+com/qu/properties/controller/PropertyController.class
+com/qu/properties/property/ApplicationProperty.class

@@ -1,0 +1,30 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /demo/admin/client
+spring:
+  application:
+    # 在Spring Boot Admin Server中显示的名字
+    name: spring-boot-demo-admin-client
+  boot:
+    admin:
+      client:
+        # Spring Boot Admin Server地址
+        url: "http://localhost:8000"
+        metadata:
+          user.name: ${spring.security.user.name}
+          user.password: ${spring.security.user.password}
+  security:
+    user:
+      name: qu
+      password: 123456
+management:
+  endpoint:
+    health:
+      # 端点健康情况，默认值"never"，设置为"always"可以显示硬盘使用情况和线程情况
+      show-details: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        # 打开客户端 Actuator 的监控, 参见spring boot demo actuator部分
+        include: "*"
